@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 import axios from "axios";
 import { io } from "socket.io-client";
 
-const BACK_URL = "http://localhost:9000";
+const BACK_URL = import.meta.env.VITE_BACKEND_URL;
 
 export const authStore = create((set, get) => ({
   authUser: null,
