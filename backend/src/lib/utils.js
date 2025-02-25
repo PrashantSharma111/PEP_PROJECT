@@ -13,7 +13,7 @@ export const generateToken = (userId, res) => {
         httpOnly: true ,
         //CSRF attacks cross-site request forgery attacks
         sameSite: "None",
-        secure: process.env.NODE_ENV != "development"   
+        secure: true
     })
 
     return token;
