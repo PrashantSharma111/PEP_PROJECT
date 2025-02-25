@@ -12,7 +12,7 @@ export const generateToken = (userId, res) => {
         //prevents XSS attacks cross-site scripting attacks (javscript)
         httpOnly: true ,
         //CSRF attacks cross-site request forgery attacks
-        sameSite: "strict",
+        sameSite: "None",
         secure: process.env.NODE_ENV != "development"   
     })
 
