@@ -71,7 +71,11 @@ Convo is a real-time chat application built using the MERN stack and **Socket.io
 
 ```sh
 git clone https://github.com/PrashantSharma111/PEP_PROJECT.git
-cd convo
+cd backend
+npm run dev
+
+cd frontend
+npm run dev
 ```
 
 ### 2. Install Dependencies
