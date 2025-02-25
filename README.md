@@ -1,5 +1,8 @@
 # Convo - Real-Time Chat Application
 
+![GIF (2)](https://github.com/user-attachments/assets/a7afa244-2231-4694-803e-fb3415c0fc23)
+
+
 ## 🌟 Overview
 
 Convo is a real-time chat application built using the MERN stack and **Socket.io**, designed to provide a seamless and interactive messaging experience. Users can sign up, join communities, engage in private chats, share media, and personalize their settings. The application also supports online status visibility and secure authentication.
